@@ -1,7 +1,8 @@
-from urllib import response
 
 import pytest
-from app import app, db, Movie, User, forge, initdb
+from watchlist import app, db
+from watchlist.models import Movie, User
+from watchlist.commands import forge, initdb
 
 
 @pytest.fixture(scope='function')
