@@ -7,8 +7,11 @@ name = "pip_conf_index_global"
 flask = "*"
 python-dotenv = "*"
 flask-sqlalchemy = "*"
-sqlalchemy = "==1.4.47"
+sqlalchemy = "*"
 flask-login = "*"
+pytest = "*"
+coverage = "*"
+pytest-cov = "*"
 
 [dev-packages]
 watchdog = "*"
